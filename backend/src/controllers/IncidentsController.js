@@ -31,7 +31,7 @@ module.exports = {
                 'ongs.city',
                 'ongs.uf'
             ]);
-        response.header('X-tatal-count', count['count(*)']);
+        response.header('X-total-count', count['count(*)']);
         return response.json(index);
     },
     async create(request, response){
